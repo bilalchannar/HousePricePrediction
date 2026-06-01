@@ -11,7 +11,6 @@ env/
 
 # ML models and temporary files
 catboost_info/
-models/best_model.pkl
 
 # Reports and results
 results/
