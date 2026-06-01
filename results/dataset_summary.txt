@@ -1,0 +1,11 @@
+Total processed rows: 357
+Total features used: 16
+Training rows: 285
+Testing rows: 71
+MAE (PKR): 11253771.00
+MSE (PKR): 484571443952868.00
+RMSE (PKR): 22012983.53
+R2 Score: 0.8822
+Average Percentage Error (MAPE): 21.72%
+Best model file path: models\best_model.pkl
+Extra evaluation charts were created for report analysis.

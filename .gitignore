@@ -13,7 +13,6 @@ env/
 catboost_info/
 
 # Reports and results
-results/
 *.docx
 *.pdf
 

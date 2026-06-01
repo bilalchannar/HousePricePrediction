@@ -38,9 +38,9 @@ def normalize_location(loc_name):
     loc = str(loc_name).strip()
     
     lowered = loc.lower()
-    if "dha defence" in lowered or "dha phase" in lowered or "dha 9 town" in lowered or "dha 11 r" in lowered:
+    if "dha defence" in lowered or "dha phase" in lowered or "dha 9 town" in lowered or "dha 11 r" in lowered or "dha defe" in lowered:
         return "DHA Defence"
-    if "bahria town" in lowered:
+    if "bahria town" in lowered or "bahria t" in lowered:
         return "Bahria Town"
     if "bahria orchard" in lowered:
         return "Bahria Orchard"
@@ -48,11 +48,11 @@ def normalize_location(loc_name):
         return "Lake City"
     if "johar town" in lowered:
         return "Johar Town"
-    if "wapda town" in lowered:
+    if "wapda town" in lowered or "wapda to" in lowered:
         return "Wapda Town"
-    if "valencia" in lowered:
+    if "valencia" in lowered or "valenci" in lowered:
         return "Valencia Town"
-    if "al rehman" in lowered:
+    if "al rehman" in lowered or "al rehm" in lowered:
         return "Al Rehman Garden"
     if "gt road" in lowered or "hafeez garden" in lowered or "ahmad garden" in lowered:
         return "GT Road Area"
@@ -60,13 +60,13 @@ def normalize_location(loc_name):
         return "Sabzazar Scheme"
     if "allama iqbal" in lowered or "iqbal town" in lowered:
         return "Iqbal Town"
-    if "central park" in lowered:
+    if "central park" in lowered or lowered == "central":
         return "Central Park Scheme"
-    if "formanites" in lowered:
+    if "formanites" in lowered or "formanit" in lowered:
         return "Formanites Scheme"
     if "bankers" in lowered:
         return "Bankers Town"
-    if "park view" in lowered:
+    if "park view" in lowered or "park vie" in lowered:
         return "Park View City"
         
     return loc.title()
