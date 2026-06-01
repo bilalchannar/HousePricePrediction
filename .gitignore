@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# ML models and temporary files
+catboost_info/
+models/best_model.pkl
+
+# Reports and results
+results/
+*.docx
+*.pdf
+
+# IDE metadata
+.vscode/
+.idea/
+.gemini/
